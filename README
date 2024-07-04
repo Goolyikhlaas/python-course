@@ -57,6 +57,8 @@ deactivate
 
 ### Useful pip Packages
 
+Website: pypi.org
+
 Here are some useful packages that you can install using pip, along with a brief description of each:
 
 requests: A simple, yet elegant HTTP library for making requests.
@@ -114,7 +116,18 @@ To list packages just use
 ```bash
 pip list  or python3 -m pip list
 ```
-clear
+Since we dont want to upload the virtual environment on git 
+
+Use git ignore for the .venv folder : explantion
+add a file in thefolder called: .gitignore then write .venv inside 
+
+Also use this commant to provide a list or requirement for the projects:
+
+```bash
+pip freeze > requirements.txt
+```
+
+
 
 
 
