@@ -10,7 +10,7 @@ Python provides powerful tools for managing project dependencies and environment
 To install a package using `pip`, you can use the following command:
 
 ```bash
-python3 pip install package_name
+python3 -m pip install package_name
 ```
 ### What is a Virtual Environment?
 
@@ -45,7 +45,7 @@ When the virtual environment is activated, you’ll see the name of the environm
 Once the virtual environment is active, you can use pip to install packages as usual. The packages will be installed in the virtual environment, not globally.
 
 ```bash
-python3 pip install package_name
+python3 -m pip install package_name
 ```
 
 ### Deactivating a Virtual Environment
@@ -61,52 +61,52 @@ Here are some useful packages that you can install using pip, along with a brief
 
 requests: A simple, yet elegant HTTP library for making requests.
 ```bash
-python3 pip install requests
+python3 -m pip install requests
 ```
 
 numpy: A fundamental package for scientific computing with Python, providing support for arrays and matrices.
 ```bash
-python3 pip install numpy
+python3 -m pip install numpy
 ```
 
 pandas: A powerful data analysis and manipulation library for Python.
 ```bash
-python3 pip install pandas
+python3 -m pip install pandas
 ```
 
 matplotlib: A plotting library for creating static, animated, and interactive visualizations in Python.
 ```bash
-python3pip install matplotlib
+python3 -m pip install matplotlib
 ```
 
 scipy: A library used for scientific and technical computing.
 ```bash
-python3 pip install scipy
+python3 -m pip install scipy
 ```
 
 scikit-learn: A machine learning library for Python, providing simple and efficient tools for data mining and data analysis.
 ```bash
-python3 pip install scikit-learn
+python3 -m pip install scikit-learn
 ```
 
 flask: A lightweight WSGI web application framework for Python, designed to make getting started quick and easy.
 ```bash
-python3 pip install flask
+python3 -m pip install flask
 ```
 
 django: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 ```bash
-python3 pip install django
+python3 -m pip install django
 ```
 
 beautifulsoup4: A library for parsing HTML and XML documents, useful for web scraping.
 ```bash
-python3 pip install beautifulsoup4
+python3 -m pip install beautifulsoup4
 ```
 
 pytest: A framework that makes it easy to write simple and scalable test cases for Python code.
 ```bash
-python3 pip install pytest
+pip install pytest
 ```
 
 
