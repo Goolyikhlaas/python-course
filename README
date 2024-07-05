@@ -127,6 +127,19 @@ Also use this commant to provide a list or requirement for the projects:
 pip freeze > requirements.txt
 ```
 
+### To generate API key for weather app use this link below: 
+https://openweathermap.org
+
+Then create an environment varible file called: .env
+and paste: API_KEY=your api key 
+
+Then go to the website again and find the url for the API call
+
+### How to use:
+run weather.py 
+enter city name eg New York
+
+
 
 
 
